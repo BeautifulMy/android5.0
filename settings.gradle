@@ -1,0 +1,1 @@
+include ':qq', ':my5.06.0', 'android5.0'

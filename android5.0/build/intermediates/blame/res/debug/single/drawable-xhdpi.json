@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "H:\\MyApplication\\android5.0\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "H:\\MyApplication\\android5.0\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\MyApplication\\android5.0\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_shadow.9.png",
+        "source": "H:\\MyApplication\\android5.0\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "H:\\MyApplication\\android5.0\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer.png",
+        "source": "H:\\MyApplication\\android5.0\\src\\main\\res\\drawable-xhdpi\\ic_drawer.png"
+    }
+]

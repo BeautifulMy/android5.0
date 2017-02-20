@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.my5060.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!--outlinewProvider轮廓属性,,,bouds  以边框设置轮廓,阴影也会进行边框
+
+
+        backound 以北京设置轮廓.阴影就会跟着背景进行修改
+        none  没有阴影,没有轮廓
+        paddedBounds以padding为基准进行轮廓设置,同时进行阴影设置-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            android:outlineProvider="bounds"
+            android:text="高度阴影"
+
+            android:translationZ="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:elevation="20dp"
+            android:text="阴影 "
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_shape"
+            android:elevation="15dp"
+            android:outlineProvider="bounds"
+            android:src="@mipmap/head" />
+
+        <ImageView
+            android:id="@+id/iv_icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_shape"
+            android:src="@mipmap/head"
+            android:translationZ="20dp" />
+
+        <TextView
+            android:id="@+id/cut"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#FF0000"
+            android:text="裁剪成圆形" />
+
+        <ImageView
+            android:id="@+id/iv_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/palette" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#000000" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="波纹效果"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="波纹效果1"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:text="波纹效果2"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="波纹效果"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle_shape"
+            android:text="自定义波纹效果1"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ripple_style"
+            android:text="自定义波纹效果2" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:stateListAnimator="@drawable/state_anim"
+            android:text="状态选择"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+
+            android:text="自定义状态选择"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="recyclerView"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="appbar"
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="textinputlayout"
+            android:textColor="#000000" />
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="tablayout"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+
+</ScrollView>
